@@ -8,13 +8,13 @@
 
 Config = {}
 
-Config.Framework = 'ESX' -- 'ESX' or 'QBCORE'
+Config.Framework = 'QBCORE' -- 'ESX' or 'QBCORE'
 Config.Blips = {
 	[1] = {
 		Coords = { x = 859.88, y = -2363.52, z = 30.34 },
-		Blip = { name = 'LS Car Meet', sprite = 777, size = 0.68, color = 0 },
-		AllowedJobs = {},
-		DeniedJobs = { 'police', 'sheriff' },
+		Blip = { name = 'manana', sprite = 357, size = 0.68, color = 0 },
+		AllowedJobs = {'vagos'},
+		DeniedJobs = {},
 	},
 	------ TEMPLATE ------
 	--[[ -- REMOVE THIS LINE
